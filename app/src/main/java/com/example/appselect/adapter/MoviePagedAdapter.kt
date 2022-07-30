@@ -36,10 +36,11 @@ class MoviePagedAdapter: PagingDataAdapter<ResponseItem, MoviePagedAdapter.MyVie
 
         holder.binding.apply {
             movieTitle.text = "${currentItem?.display_title}"
+            movieDescription.text = "${currentItem?.summary_short}"
             val imageLink = currentItem?.multimedia?.src
             movieImage.load(imageLink) {
                 crossfade(true)
-                crossfade(1000)
+                crossfade(500)
             }
         }
 

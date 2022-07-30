@@ -30,6 +30,15 @@
             android:textColor="@color/black"
             android:textAlignment="center"
             android:text="@string/movie_title" />
+
+        <TextView
+            android:id="@+id/movieDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:text="@string/movie_description" />
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

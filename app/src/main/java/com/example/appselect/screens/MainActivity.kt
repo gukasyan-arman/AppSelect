@@ -1,4 +1,4 @@
-package com.example.appselect
+package com.example.appselect.screens
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

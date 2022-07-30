@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">AppSelect</string>
     <string name="movie_title">movie title</string>
+    <string name="movie_description">movie description</string>
+    <string name="company_name">AppSelect</string>
+    <string name="company_desc">Мобильные приложения для людей</string>
 </resources>
